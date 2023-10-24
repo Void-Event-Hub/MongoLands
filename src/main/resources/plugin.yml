@@ -1,0 +1,11 @@
+name: MongoLands
+version: '${project.version}'
+main: net.ollycodes.mongolands.MongoLands
+api-version: '1.18'
+commands:
+  ml:
+    description: MongoLands command
+    usage: /ml
+    permission: ml.admin
+depend:
+  - Lands
